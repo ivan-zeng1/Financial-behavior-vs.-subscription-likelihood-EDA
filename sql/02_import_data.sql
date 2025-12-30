@@ -1,0 +1,17 @@
+-- Data Import Documentation
+-- Dataset: Bank Marketing Dataset
+-- Source: Kaggle (https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset)
+--
+-- Raw data was imported into MySQL using MySQL Workbench's
+-- Table Data Import Wizard.
+--
+-- Target schema: `fintech.data`
+-- Target table:  bank
+--
+-- Import notes:
+-- - CSV file was loaded without transformations
+-- - Column names and data types match the original dataset
+-- - This table is treated as the immutable raw source for analysis
+--
+-- No executable SQL is required in this file.
+-- This script documents the ingestion step for reproducibility.
